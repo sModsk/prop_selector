@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div id="gizmo-help">
+        <p><span class="key">R</span> - Rotate</p>
+        <p><span class="key">W</span> - Move</p>
+        <p><span class="key">Q</span> - Toggle World/Local Space</p>
+        <p><span class="key">A</span> - Place Ground</p>
+        <p><span class="key">S</span> - Reset Rotation</p>
+        <p><span class="key">D</span> - Reset Position</p>
+        <p><span class="key">Arrow Left</span> - -45°</p>
+        <p><span class="key">Arrow Right</span> - +45°</p>
+        <p><span class="key">Enter</span> - Apply</p>
+    </div>
+
+    <div id="search-box">
+        <input type="text" id="search-input" placeholder="Type to search..." minlength="2">
+        <button onclick="search()">Search</button>
+    </div>
+    
+    <div id="button-navigation">
+        <button class="nav-btn" id="prev">Prev</button>
+        <button class="nav-btn" id="next">Next</button>
+        <button class="nav-btn" id="move">Move</button>
+        <button class="nav-btn" id="select">Select</button>
+        <button class="nav-btn" id="close">Exit</button>
+        
+    </div>
+    <div id="button-categories"></div>
+    <script src="script.js"></script>
+</body>
+</html>

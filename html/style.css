@@ -1,0 +1,156 @@
+body {
+    pointer-events: none;
+    overflow: hidden;
+    display: none;
+}
+
+
+
+#button-categories, #button-navigation {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+#button-categories {
+    bottom: 10px;
+}
+
+#button-navigation {
+    bottom: 66px;
+}
+
+#search-box {
+    bottom: 120px;
+}
+
+
+button, #gizmo-help {
+    padding: 6px 12px;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'Arial', sans-serif;
+    border: none;
+    border-radius: 6px;
+    background-color: rgb(31, 41, 55);
+    color: white;
+    transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.15);
+    user-select: none;
+}
+
+#search-box {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    gap: 10px;
+    justify-content: center;
+}
+
+input {
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'Arial', sans-serif;
+    background-color: rgb(31, 41, 55);
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    color: white;
+    border: none;
+}
+
+#gizmo-help {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: auto;
+    display: none;
+}
+
+
+button {
+    cursor: pointer;
+}
+
+.nav-btn {
+    padding: 12px 24px;
+}
+
+button:focus {
+    outline: none;
+}
+
+button:hover {
+    background-color: rgb(55, 65, 81);
+    transform: translateY(-3px);
+}
+
+
+button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+    box-shadow: none;
+}
+
+button:active {
+    background-color: rgb(31, 41, 55);
+    transform: translateY(2px);
+}
+
+.simulate-hover {
+    background-color: rgb(55, 65, 81);
+    transform: translateY(-3px);
+}
+
+.simulate-active {
+    background-color: rgb(31, 41, 55);
+    transform: translateY(2px);
+}
+
+
+body {
+    pointer-events: none;
+    overflow: hidden;
+    display: none;
+}
+
+/* Default (for larger screens) */
+#button-categories, #button-navigation {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+#button-categories {
+    bottom: 10px;
+}
+
+#button-navigation {
+    bottom: 66px;
+}
+
+#search-box {
+    bottom: 120px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    gap: 10px;
+    justify-content: center;
+}
+
+/* Button styles */
+button, #gizmo-help {
+    padding: 6px 12px;
+    font-size: 16px;
+}
+
+
+
+
